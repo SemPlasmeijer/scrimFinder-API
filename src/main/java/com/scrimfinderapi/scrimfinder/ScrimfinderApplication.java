@@ -22,7 +22,7 @@ public class ScrimfinderApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/hello").allowedOrigins("http://localhost:5173");
+				registry.addMapping("/hello").allowedOrigins("http://localhost:8080");
 			}
 		};
 	}
