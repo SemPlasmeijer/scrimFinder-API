@@ -25,3 +25,146 @@
 2023-03-14T12:40:28.875+01:00  INFO 6568 --- [http-nio-8082-exec-2] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
 2023-03-14T12:40:28.875+01:00 DEBUG 6568 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
 2023-03-14T12:40:28.879+01:00 DEBUG 6568 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:44:52.788+01:00  INFO 6568 --- [http-nio-8082-exec-4] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:44:52.789+01:00 DEBUG 6568 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:44:52.791+01:00 DEBUG 6568 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:44:52.843+01:00  INFO 6568 --- [http-nio-8082-exec-5] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:44:52.844+01:00 DEBUG 6568 --- [http-nio-8082-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:44:52.847+01:00 DEBUG 6568 --- [http-nio-8082-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:45:06.928+01:00  INFO 9920 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Starting ScrimfinderApplication using Java 17.0.6 with PID 9920 (/home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API/build/classes/java/main started by sem.plasmeijer in /home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API)
+2023-03-14T12:45:06.929+01:00  INFO 9920 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-14T12:45:06.962+01:00  INFO 9920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-14T12:45:06.962+01:00  INFO 9920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-14T12:45:07.221+01:00  INFO 9920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-14T12:45:07.229+01:00  INFO 9920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-14T12:45:07.233+01:00  INFO 9920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-14T12:45:07.233+01:00  INFO 9920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-14T12:45:07.476+01:00  INFO 9920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-03-14T12:45:07.482+01:00  INFO 9920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-14T12:45:07.482+01:00  INFO 9920 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-14T12:45:07.507+01:00  INFO 9920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-14T12:45:07.507+01:00  INFO 9920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 544 ms
+2023-03-14T12:45:07.518+01:00  WARN 9920 --- [restartedMain] .s.b.d.a.RemoteDevToolsAutoConfiguration : Listening for remote restart updates on /.~~spring-boot!~/restart
+2023-03-14T12:45:07.534+01:00 DEBUG 9920 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2023-03-14T12:45:07.897+01:00  WARN 9920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-14T12:45:07.908+01:00  INFO 9920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-14T12:45:07.914+01:00  INFO 9920 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Started ScrimfinderApplication in 1.194 seconds (process running for 1.385)
+2023-03-14T12:45:13.534+01:00  INFO 9920 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14T12:45:13.534+01:00  INFO 9920 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-14T12:45:13.535+01:00  INFO 9920 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-14T12:45:13.540+01:00  INFO 9920 --- [http-nio-8082-exec-1] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:45:13.543+01:00 DEBUG 9920 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:45:13.569+01:00 DEBUG 9920 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:45:13.569+01:00 ERROR 9920 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Expected scheme-specific part at index 10: localhost:] with root cause
+
+java.net.URISyntaxException: Expected scheme-specific part at index 10: localhost:
+	at java.base/java.net.URI$Parser.fail(URI.java:2974) ~[na:na]
+	at java.base/java.net.URI$Parser.failExpecting(URI.java:2980) ~[na:na]
+	at java.base/java.net.URI$Parser.parse(URI.java:3180) ~[na:na]
+	at java.base/java.net.URI.<init>(URI.java:623) ~[na:na]
+	at java.base/java.net.URI.create(URI.java:904) ~[na:na]
+	at org.springframework.web.util.DefaultUriBuilderFactory$DefaultUriBuilder.createUri(DefaultUriBuilderFactory.java:411) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.util.DefaultUriBuilderFactory$DefaultUriBuilder.build(DefaultUriBuilderFactory.java:404) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.util.DefaultUriBuilderFactory.expand(DefaultUriBuilderFactory.java:154) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:763) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:378) ~[spring-web-6.0.5.jar:6.0.5]
+	at com.scrimfinderapi.scrimfinder.web.wq.WqOutgoing.getWorkerQueueLogs(WqOutgoing.java:16) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.5.jar:6.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:72) ~[spring-boot-devtools-3.0.3.jar:3.0.3]
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:60) ~[spring-boot-devtools-3.0.3.jar:3.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at com.scrimfinderapi.scrimfinder.web.log.RequestCachingFilter.doFilterInternal(RequestCachingFilter.java:28) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-14T12:45:13.641+01:00  INFO 9920 --- [http-nio-8082-exec-2] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:45:13.642+01:00 DEBUG 9920 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:45:13.646+01:00 DEBUG 9920 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:46:09.886+01:00  INFO 12028 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Starting ScrimfinderApplication using Java 17.0.6 with PID 12028 (/home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API/build/classes/java/main started by sem.plasmeijer in /home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API)
+2023-03-14T12:46:09.888+01:00  INFO 12028 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-14T12:46:09.919+01:00  INFO 12028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-14T12:46:09.919+01:00  INFO 12028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-14T12:46:10.179+01:00  INFO 12028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-14T12:46:10.187+01:00  INFO 12028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-14T12:46:10.191+01:00  INFO 12028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-14T12:46:10.191+01:00  INFO 12028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-14T12:46:10.423+01:00  INFO 12028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-03-14T12:46:10.428+01:00  INFO 12028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-14T12:46:10.429+01:00  INFO 12028 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-14T12:46:10.454+01:00  INFO 12028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-14T12:46:10.454+01:00  INFO 12028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 534 ms
+2023-03-14T12:46:10.465+01:00  WARN 12028 --- [restartedMain] .s.b.d.a.RemoteDevToolsAutoConfiguration : Listening for remote restart updates on /.~~spring-boot!~/restart
+2023-03-14T12:46:10.481+01:00 DEBUG 12028 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2023-03-14T12:46:10.856+01:00  WARN 12028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-14T12:46:10.868+01:00  INFO 12028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-14T12:46:10.874+01:00  INFO 12028 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Started ScrimfinderApplication in 1.196 seconds (process running for 1.401)
+2023-03-14T12:46:17.932+01:00  INFO 12028 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14T12:46:17.932+01:00  INFO 12028 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-14T12:46:17.933+01:00  INFO 12028 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-14T12:46:17.939+01:00  INFO 12028 --- [http-nio-8082-exec-1] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:46:17.941+01:00 DEBUG 12028 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:46:18.027+01:00 DEBUG 12028 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:46:18.070+01:00  INFO 12028 --- [http-nio-8082-exec-2] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:46:18.071+01:00 DEBUG 12028 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:46:18.074+01:00 DEBUG 12028 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:46:53.534+01:00  INFO 12028 --- [http-nio-8082-exec-3] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:46:53.535+01:00 DEBUG 12028 --- [http-nio-8082-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:46:53.546+01:00 DEBUG 12028 --- [http-nio-8082-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:46:53.600+01:00  INFO 12028 --- [http-nio-8082-exec-4] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:46:53.600+01:00 DEBUG 12028 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:46:53.602+01:00 DEBUG 12028 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
