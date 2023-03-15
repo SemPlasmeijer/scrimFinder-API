@@ -168,3 +168,120 @@ java.net.URISyntaxException: Expected scheme-specific part at index 10: localhos
 2023-03-14T12:46:53.600+01:00  INFO 12028 --- [http-nio-8082-exec-4] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
 2023-03-14T12:46:53.600+01:00 DEBUG 12028 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
 2023-03-14T12:46:53.602+01:00 DEBUG 12028 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:49:23.050+01:00  INFO 12028 --- [http-nio-8082-exec-6] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:49:23.051+01:00 DEBUG 12028 --- [http-nio-8082-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:49:23.350+01:00 DEBUG 12028 --- [http-nio-8082-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:49:23.586+01:00  INFO 12028 --- [http-nio-8082-exec-7] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:49:23.587+01:00 DEBUG 12028 --- [http-nio-8082-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:49:23.591+01:00 DEBUG 12028 --- [http-nio-8082-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:53:12.366+01:00  INFO 12028 --- [http-nio-8082-exec-9] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:53:12.367+01:00 DEBUG 12028 --- [http-nio-8082-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:53:14.147+01:00 DEBUG 12028 --- [http-nio-8082-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:53:14.254+01:00  INFO 12028 --- [http-nio-8082-exec-10] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:53:14.255+01:00 DEBUG 12028 --- [http-nio-8082-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:53:14.257+01:00 DEBUG 12028 --- [http-nio-8082-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:59:24.249+01:00  INFO 15525 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Starting ScrimfinderApplication using Java 17.0.6 with PID 15525 (/home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API/build/classes/java/main started by sem.plasmeijer in /home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API)
+2023-03-14T12:59:24.251+01:00  INFO 15525 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-14T12:59:24.283+01:00  INFO 15525 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-14T12:59:24.284+01:00  INFO 15525 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-14T12:59:24.553+01:00  INFO 15525 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-14T12:59:24.561+01:00  INFO 15525 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-14T12:59:24.565+01:00  INFO 15525 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-14T12:59:24.565+01:00  INFO 15525 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-14T12:59:24.812+01:00  INFO 15525 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-03-14T12:59:24.818+01:00  INFO 15525 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-14T12:59:24.818+01:00  INFO 15525 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-14T12:59:24.844+01:00  INFO 15525 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-14T12:59:24.845+01:00  INFO 15525 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 561 ms
+2023-03-14T12:59:24.857+01:00  WARN 15525 --- [restartedMain] .s.b.d.a.RemoteDevToolsAutoConfiguration : Listening for remote restart updates on /.~~spring-boot!~/restart
+2023-03-14T12:59:24.873+01:00 DEBUG 15525 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2023-03-14T12:59:25.253+01:00  WARN 15525 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-14T12:59:25.265+01:00  INFO 15525 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-14T12:59:25.270+01:00  INFO 15525 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Started ScrimfinderApplication in 1.229 seconds (process running for 1.424)
+2023-03-14T12:59:31.675+01:00  INFO 15525 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14T12:59:31.675+01:00  INFO 15525 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-14T12:59:31.676+01:00  INFO 15525 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-14T12:59:31.682+01:00  INFO 15525 --- [http-nio-8082-exec-1] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:59:31.685+01:00 DEBUG 15525 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:59:33.432+01:00 DEBUG 15525 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:59:33.525+01:00  INFO 15525 --- [http-nio-8082-exec-2] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:59:33.526+01:00 DEBUG 15525 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:59:33.531+01:00 DEBUG 15525 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T12:59:51.923+01:00  INFO 15525 --- [http-nio-8082-exec-3] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:59:51.923+01:00 DEBUG 15525 --- [http-nio-8082-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T12:59:53.624+01:00 DEBUG 15525 --- [http-nio-8082-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T12:59:53.758+01:00  INFO 15525 --- [http-nio-8082-exec-4] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T12:59:53.759+01:00 DEBUG 15525 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T12:59:53.762+01:00 DEBUG 15525 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T13:00:06.610+01:00  INFO 16009 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Starting ScrimfinderApplication using Java 17.0.6 with PID 16009 (/home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API/build/classes/java/main started by sem.plasmeijer in /home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API)
+2023-03-14T13:00:06.612+01:00  INFO 16009 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-14T13:00:06.647+01:00  INFO 16009 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-14T13:00:06.647+01:00  INFO 16009 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-14T13:00:06.928+01:00  INFO 16009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-14T13:00:06.936+01:00  INFO 16009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-14T13:00:06.940+01:00  INFO 16009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-14T13:00:06.940+01:00  INFO 16009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-14T13:00:07.187+01:00  INFO 16009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-03-14T13:00:07.192+01:00  INFO 16009 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-14T13:00:07.193+01:00  INFO 16009 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-14T13:00:07.218+01:00  INFO 16009 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-14T13:00:07.218+01:00  INFO 16009 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 570 ms
+2023-03-14T13:00:07.229+01:00  WARN 16009 --- [restartedMain] .s.b.d.a.RemoteDevToolsAutoConfiguration : Listening for remote restart updates on /.~~spring-boot!~/restart
+2023-03-14T13:00:07.245+01:00 DEBUG 16009 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2023-03-14T13:00:07.621+01:00  WARN 16009 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-14T13:00:07.632+01:00  INFO 16009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-14T13:00:07.638+01:00  INFO 16009 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Started ScrimfinderApplication in 1.245 seconds (process running for 1.441)
+2023-03-14T13:00:17.893+01:00  INFO 16009 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14T13:00:17.894+01:00  INFO 16009 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-14T13:00:17.894+01:00  INFO 16009 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-14T13:00:17.900+01:00  INFO 16009 --- [http-nio-8082-exec-1] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:00:17.902+01:00 DEBUG 16009 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T13:00:19.554+01:00 DEBUG 16009 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T13:00:19.650+01:00  INFO 16009 --- [http-nio-8082-exec-2] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:00:19.651+01:00 DEBUG 16009 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T13:00:19.657+01:00 DEBUG 16009 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T13:01:48.716+01:00  INFO 16484 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Starting ScrimfinderApplication using Java 17.0.6 with PID 16484 (/home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API/build/classes/java/main started by sem.plasmeijer in /home/sem.plasmeijer/projects/scrimFinder/scrimFinder-Docker/scrimFinder-API)
+2023-03-14T13:01:48.718+01:00  INFO 16484 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-14T13:01:48.752+01:00  INFO 16484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-14T13:01:48.753+01:00  INFO 16484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-14T13:01:49.033+01:00  INFO 16484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-14T13:01:49.041+01:00  INFO 16484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-14T13:01:49.045+01:00  INFO 16484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-14T13:01:49.045+01:00  INFO 16484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-14T13:01:49.287+01:00  INFO 16484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-03-14T13:01:49.292+01:00  INFO 16484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-14T13:01:49.293+01:00  INFO 16484 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-14T13:01:49.320+01:00  INFO 16484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-14T13:01:49.320+01:00  INFO 16484 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 567 ms
+2023-03-14T13:01:49.333+01:00  WARN 16484 --- [restartedMain] .s.b.d.a.RemoteDevToolsAutoConfiguration : Listening for remote restart updates on /.~~spring-boot!~/restart
+2023-03-14T13:01:49.350+01:00 DEBUG 16484 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2023-03-14T13:01:49.735+01:00  WARN 16484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-14T13:01:49.746+01:00  INFO 16484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-14T13:01:49.752+01:00  INFO 16484 --- [restartedMain] c.s.scrimfinder.ScrimfinderApplication   : Started ScrimfinderApplication in 1.276 seconds (process running for 1.498)
+2023-03-14T13:01:53.906+01:00  INFO 16484 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14T13:01:53.907+01:00  INFO 16484 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-14T13:01:53.908+01:00  INFO 16484 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-14T13:01:53.913+01:00  INFO 16484 --- [http-nio-8082-exec-1] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:01:53.915+01:00 DEBUG 16484 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T13:01:55.662+01:00 DEBUG 16484 --- [http-nio-8082-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T13:01:55.804+01:00  INFO 16484 --- [http-nio-8082-exec-2] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:01:55.804+01:00 DEBUG 16484 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T13:01:55.810+01:00 DEBUG 16484 --- [http-nio-8082-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T13:02:07.270+01:00  INFO 16484 --- [http-nio-8082-exec-3] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:02:07.270+01:00 DEBUG 16484 --- [http-nio-8082-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T13:02:08.934+01:00 DEBUG 16484 --- [http-nio-8082-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T13:02:09.026+01:00  INFO 16484 --- [http-nio-8082-exec-4] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:02:09.027+01:00 DEBUG 16484 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T13:02:09.031+01:00 DEBUG 16484 --- [http-nio-8082-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T13:05:01.608+01:00  INFO 16484 --- [http-nio-8082-exec-5] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:05:01.608+01:00 DEBUG 16484 --- [http-nio-8082-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T13:05:03.255+01:00 DEBUG 16484 --- [http-nio-8082-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T13:05:03.340+01:00  INFO 16484 --- [http-nio-8082-exec-6] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:05:03.340+01:00 DEBUG 16484 --- [http-nio-8082-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T13:05:03.342+01:00 DEBUG 16484 --- [http-nio-8082-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
+2023-03-14T13:05:04.477+01:00  INFO 16484 --- [http-nio-8082-exec-7] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:05:04.478+01:00 DEBUG 16484 --- [http-nio-8082-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/out/wq/logs]
+2023-03-14T13:05:06.177+01:00 DEBUG 16484 --- [http-nio-8082-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /api/out/wq/logs]
+2023-03-14T13:05:06.524+01:00  INFO 16484 --- [http-nio-8082-exec-8] c.s.s.web.log.RequestCachingFilter       : REQUEST DATA: 
+2023-03-14T13:05:06.525+01:00 DEBUG 16484 --- [http-nio-8082-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /favicon.ico]
+2023-03-14T13:05:06.527+01:00 DEBUG 16484 --- [http-nio-8082-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA: GET /favicon.ico]
