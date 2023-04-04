@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.0.3'
 	id 'io.spring.dependency-management' version '1.1.0'
+	id 'org.eclipse.jkube.kubernetes' version '1.12.0'
 }
 
 group = 'com.scrimfinderapi'
@@ -22,6 +23,8 @@ dependencies {
 	implementation 'org.springframework.data:spring-data-elasticsearch:5.0.3'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux:3.0.4'
 	implementation 'commons-io:commons-io:2.11.0'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	annotationProcessor "org.springframework:spring-context-indexer:6.0.6"
 	compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
